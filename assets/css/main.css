@@ -3144,11 +3144,18 @@ input, select, textarea {
 				margin: 0 0 2.25em 0;
 				padding-right: 0;
 				width: 100%;
+        display: none;
 			}
 
 			.features article .inner {
 				display: block;
 				width: 100%;
+			}
+			
+      .features article .inner-youtube {
+				display: block;
+				width: 100%;
+        display: none;
 			}
 
 		/* Header */

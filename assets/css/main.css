@@ -2639,6 +2639,7 @@ input, select, textarea {
 		padding-top: 2.25em;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 	}
 
 		.features article:first-child {
@@ -2659,7 +2660,8 @@ input, select, textarea {
 			}
 
 		.features article .inner {
-			display: inline-block;
+			display: flex;
+      flex-flow: column nowrap;
 			vertical-align: middle;
 			width: 50%;
 		}

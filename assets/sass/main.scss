@@ -1372,6 +1372,10 @@
 				font-size: 11pt;
 			}
 
+      #resume {
+        display: none; 
+      }
+
 		/* Header */
 
 			#header {
@@ -1412,6 +1416,7 @@
 		/* Image */
 
 			.image {
+        display: none;
 				&.left,
 				&.right {
 					max-width: 40%;

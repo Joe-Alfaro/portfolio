@@ -2897,6 +2897,10 @@ input, select, textarea {
 
 	@media screen and (max-width: 1280px) {
 
+    /* Embedded Resume */
+    #resume {
+      display: none;
+    }
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3085,8 +3089,8 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
-	}
 
+	}
 /* Small */
 
 	@media screen and (max-width: 736px) {

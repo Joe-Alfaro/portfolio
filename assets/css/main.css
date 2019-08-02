@@ -3146,9 +3146,13 @@ input, select, textarea {
 
 		/* Features */
 
-			.features article a {
-        display: none !important;
+			.features article .image {
+        display: none;
 			}
+      .features article .repositories {
+        display: flex;
+        flex-direction: column;
+      }
 
 			.features article .inner {
 				display: block;

@@ -2669,7 +2669,11 @@ input, select, textarea {
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
-
+    
+    .features article .inner .repositories {
+      display: flex;
+      flex-direction: column;
+    }
 /* Header */
 
 	#header {
@@ -3145,14 +3149,15 @@ input, select, textarea {
 				}
 
 		/* Features */
+      .features article {
+        display: flex;
+        flex-direction: column; 
+      }
 
 			.features article .image {
-        display: none;
+        width: 100%;
+        height: auto;
 			}
-      .features article .repositories {
-        display: flex;
-        flex-direction: column;
-      }
 
 			.features article .inner {
 				display: block;
